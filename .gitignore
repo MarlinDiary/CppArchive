@@ -1,0 +1,52 @@
+# 编译后的可执行文件
+*.exe
+*.out
+hello
+a.out
+
+# 调试符号文件
+*.dSYM/
+*.pdb
+
+# 对象文件
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# IDE和编辑器配置文件
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+.idea/
+*.swp
+*.swo
+*~
+
+# 构建目录
+build/
+bin/
+obj/
+debug/
+release/
+Debug/
+Release/
+
+# CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 其他临时文件
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db 
